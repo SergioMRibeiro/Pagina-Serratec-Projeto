@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap%27');
+
+:root {
+  --main-color: rgb(36, 90, 206);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+#navegador {
+  background-color: rgba(240, 240, 240, 0.5);
+  border: 2px solid rgba(30, 29, 36, 0.2);
+}
+
+#navegador li a {
+  font-size: x-large;
+  color: var(--main-color);
+}
+
+#navegador .active {
+  background-color: rgba(36, 90, 206, 0.3);
+  border: 2px solid rgba(36, 90, 206, 0.5);
+  border-radius: 3px;
+}
+
+#main {
+  margin: 40px 0 100px 0;
+}
+
+#main h3 {
+  color: var(--main-color);
+}
+
+#foto-turma {
+  border-radius: 50px;
+}
+
+#carrosel .textos {
+  font-size: larger;
+  padding-top: 20px;
+  color: var(--main-color);
+  text-align: center;
+}
+
+#carrosel {
+  min-height: 670px;
+}
+
+#carrosel a i {
+  font-size: 50px;
+  color: var(--main-color);
+}
+
+#footer {
+  margin-top: 200px;
+  background-color: rgba(67, 61, 85, 0.1);
+  font-weight: 500;
+  font-size: 22px;
+  color: blueviolet;
+}
